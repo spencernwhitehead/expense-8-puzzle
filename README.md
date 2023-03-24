@@ -29,14 +29,19 @@ Python 3.11.1
 structure:
 	the program starts with setting up various global variables and reads the files and assigns them to arrays
 	node class is defined
+	     
 	function gridswap is defined to be able to manipulate the grid
+	     
 	function heuristic is defined, takes manhattan distance for each tile and multiplies by value of tile
+	     
 	graphSearch function implements search functionality, takes node from fringe, checks if in closed,
-		expands otherwise, takes children and adds them to fringe
-		the way the children are added depends on chosen algorithm, and every algorithm can be chosen
+		expands otherwise, takes children and adds them to fringe.
+		the way the children are added depends on chosen algorithm, and every algorithm can be chosen,
 		including the extra credit ones
+	     
 	the expand function finds every direction a tile can be moved with the current grid, and creates new child
 		nodes based on those valid directions and returns them in a list
+	     
 	the last part of the program is the main function, which calls the graphsearch function and prints the
 		information for the output when the goal node is found
 	
