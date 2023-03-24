@@ -2,6 +2,7 @@
 Assignment 1 for CSE4360 Artificial Intelligence
 
 ORIGINAL ASSIGNMENT DESCRIPTION:
+
 Your task is to build an agent to solve a modifed version of the 8 puzzle problem (called the Expense 8 puzzle problem). The task is still to take a 3X3 grid on which 8 tiles have been placed, where you can only move one tile at a time to an adjacent location (as long as it is blank) and figure out the order in which to move the tiles to get it to a desired configuration. However now the number on the tile now also represents the cot of moving that tile (moving the tile marked 6 costs 6).
 
 Your program should be called expense_8_puzzle and the command line invocation should follow the following format:
@@ -20,6 +21,7 @@ expense_8_puzzle.py <start-file> <goal-file> <method> <dump-flag>
     If <dump-flag>  is given as true, search trace is dumped for analysis in trace-<date>-<time>.txt (Note: if <dump-flag> is not given, assume it is false)
         search trace contains: fringe and closed set contents per loop of search(and per iteration for IDS), counts of nodes expanded and nodes
 
+ORIGINAL README:
 
 Spencer Whitehead
 Python 3.11.1
